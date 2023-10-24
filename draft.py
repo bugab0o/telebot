@@ -1,3 +1,5 @@
+# LESSON 1
+
 # print("Hello, world!")
 
 # strings = ["Hello", "world"]
@@ -65,17 +67,34 @@
 # name = input("Введите имя: ")
 # print("Привет", name)
 
+# LESSON 2
 
-date, task = input("Введите дату: "), input("Введите задачу: ")
-date1, task1 = input("Введите дату: "), input("Введите задачу: ")
-date2, task2 = input("Введите дату: "), input("Введите задачу: ")
+# name = input("Введите имя: ")
+# print(name)
 
-# print(date, task) 
-# print(date1, task1) 
-# print(date2, task2)
+# name1 = "Oleg"
+# print(name == name1)
 
-todolist = {date : task, 
-            date1 : task1, 
-            date2 : task2
-            }
-print(todolist)
+# name = input("Введите имя: ")
+# login = "Oleg"
+
+# if name == login:
+#     # Выражение True
+#     print("Hello", name)
+# elif len(name) < 3:
+#     print("Такое имя недопустимо")
+# # elif name == "Yo":
+# #     print("Yo, bro")
+# else:
+#     # Выражение False
+#     print("Hello, user!")
+
+# print("The end")
+
+# 2.4 Циклы
+
+x = 1
+while x <= 10:
+    print(x)
+    x += 1
+print(x)
