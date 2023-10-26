@@ -340,4 +340,28 @@
 
 ### LESSON 4 ###
 
+# import telebot
 
+# token = "6797118958:AAHZV9GwINMI8JXzHZyPtVOsb2FuTxP_bJ8"
+
+# # переменная, в которой будут содержаться всем функции, которые нам нужны для обработки и ответа на сообщения
+# bot = telebot.TeleBot(token)
+
+# my_name = "Олег"
+# # регистрация функции ниже в качестве обработчика сообщений типа text. Синтаксис декоратор.
+# @bot.message_handler(content_types=["text"])
+
+# # функция начинает отправку запросов к серверам telegram, используя token
+# def echo(message):
+#     if my_name in message.text:
+#         text = "Ба! Знакомые все лица!"
+#     else: 
+#         text = message.text
+#     bot.send_message(message.chat.id, message.text) # просто ответ на сообщение. Первый параметр - чат (уникальный идентификатор)
+
+
+# bot.polling(none_stop=True) # постоянно обращается к серверам телеграм, long_polling.
+# # ctrl + C - стоп для бота
+
+
+### LESSON 5 ###

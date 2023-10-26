@@ -1,4 +1,20 @@
 import random
+import telebot
+
+# наш токен
+token = "6797118958:AAHZV9GwINMI8JXzHZyPtVOsb2FuTxP_bJ8"
+
+# переменная, в которой будут содержаться всем функции, которые нам нужны для обработки и ответа на сообщения
+bot = telebot.TeleBot(token)
+# регистрация функции ниже в качестве обработчика сообщений типа text. Синтаксис декоратор.
+@bot.message_handler(content_types=["text"])
+
+# функция начинает отправку запросов к серверам telegram, используя token
+def echo(message):
+    bot.send_message(message.chat.id, message.text) # просто ответ на сообщение. Первый параметр - чат (уникальный идентификатор)
+
+# постоянно обращается к серверам телеграм, long_polling
+bot.polling(none_stop=True)
 
 HELP = """
 help - напечатать справку по программе.
