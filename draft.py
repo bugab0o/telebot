@@ -1,4 +1,4 @@
-# LESSON 1
+### LESSON 1 ###
 
 # print("Hello, world!")
 
@@ -67,7 +67,7 @@
 # name = input("Введите имя: ")
 # print("Привет", name)
 
-# LESSON 2
+### LESSON 2 ###
 
 # name = input("Введите имя: ")
 # print(name)
@@ -99,7 +99,7 @@
 #     x += 1
 # print(x)
 
-# LESSON 3
+### LESSON 3 ###
 
 # 3.1 Добработка программы
 
@@ -338,5 +338,6 @@
 # print("До свидания!")
 
 
-# LESSON 4
+### LESSON 4 ###
+
 
