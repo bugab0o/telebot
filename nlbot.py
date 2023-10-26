@@ -9,6 +9,10 @@ today = []
 tommorow = [] 
 other = []
 
+tasks = {
+
+    
+}
 
 while True:
     command = input("Введите команду:\n")
